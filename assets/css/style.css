@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+body {
+  background-color: #FCFFF5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  background-color: #D1DBBD;
+}
+.container .row {
+  padding-top: 50px;
+}
+.container .row .card .card-header h5 {
+  color: #193441;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .row .card .card-body1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.container .row .card .card-body1 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  gap: 20px;
+}
+.container .row .card .card-body1 form input {
+  background-color: #FAF6D8;
+  padding: 5px 10px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.container .row .card .card-body1 form input:focus {
+  width: 400px;
+  border: 1px solid #F28C0F;
+  transition: width 0.4s ease-in-out;
+}
+.container .row .card .card-body1 form button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 100px;
+  outline: none;
+  border: none;
+  background-color: #F28C0F;
+  color: #FCFFF5;
+  font-weight: 600;
+}
+.container .row .card .card-body1 form button:hover {
+  background-color: #F2C230;
+}
+.container .row .card .card-body2 {
+  margin-top: 20px;
+}
+.container .row .card .card-body2 h5 {
+  color: #193441;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 0;
+}
+.container .row .card .card-body2 .list-group {
+  border-top: 1px solid #BF5B04;
+  border-bottom: 1px solid #BF5B04;
+  background-color: #FAF6D8;
+  min-height: 90px;
+  position: relative;
+}
+.container .row .card .card-body2 .list-group li {
+  padding: 5px 0 5px 50px;
+  border-bottom: 1px solid #BF5B04;
+}
+.container .row .card .card-body2 .list-group li:nth-child(even) {
+  background-color: #e7e3c1;
+}
+.container .row .card .card-body2 .list-group li:nth-child(even):hover {
+  background-color: #F2C230;
+}
+.container .row .card .card-body2 .list-group li:nth-child(odd):hover {
+  background-color: #F2C230;
+}/*# sourceMappingURL=style.css.map */

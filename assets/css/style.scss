@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+body{
+    background-color: #FCFFF5;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-color: #D1DBBD;
+    .row {padding-top: 50px;
+        .card {
+            .card-header {
+                h5 {
+                    color: #193441;
+                    font-size: 30px;
+                    text-align: center;
+                    font-weight: 700;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+            .card-body1 {
+                display: flex;
+                justify-content: center;
+                padding-top: 50px;
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 800px;
+                    gap: 20px;
+                    input {
+                        background-color: #FAF6D8;
+                        padding: 5px 10px;
+                        width: 200px;
+                        border-radius: 10px;
+                        border: none;
+                        outline: none;
+                        &:focus {
+                            width: 400px;
+                            border: 1px solid #F28C0F;
+                            transition: width 0.4s ease-in-out;
+                        }
+                    }
+                    button {
+                        padding: 5px 10px;
+                        border-radius: 5px;
+                        width: 100px;
+                        outline: none;
+                        border: none;
+                        background-color: #F28C0F;
+                        color: #FCFFF5;
+                        font-weight: 600;
+                        &:hover {
+                            background-color: #F2C230;
+                        }
+                    }
+                }
+            }
+            .card-body2 {
+                margin-top: 20px;
+                h5 {
+                    color: #193441;
+                    font-size: 24px;
+                    text-align: center;
+                    font-weight: 700;
+                    font-family: Arial, Helvetica, sans-serif;
+                    padding: 20px 0;
+                }
+                .list-group {
+                    border-top: 1px  solid #BF5B04;
+                    border-bottom: 1px  solid #BF5B04;
+                    background-color:#FAF6D8;
+                    min-height: 90px;
+                    position: relative;
+                    li {
+                        padding: 5px 0 5px 50px;
+                        border-bottom: 1px solid #BF5B04;
+                        &:nth-child(even){
+                            background-color: #e7e3c1;
+                            &:hover {
+                                background-color: #F2C230;
+                            }
+                        }
+                        &:nth-child(odd) {
+                            &:hover {
+                                background-color: #F2C230;
+                            }
+                        }
+                    }
+                   
+                }
+            }
+        }
+    }
+}
